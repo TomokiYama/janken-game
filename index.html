@@ -14,12 +14,18 @@ button {
 }
 </style>
 <body>
-
 <h1>じゃんけんゲーム</h1>
 
 <button onclick="play('グー')">グー</button>
 <button onclick="play('チョキ')">チョキ</button>
 <button onclick="play('パー')">パー</button>
+<div>
+  <p>あなた</p>
+  <img id="playerHand" width="100">
+
+  <p>コンピューター</p>
+  <img id="cpuHand" width="100">
+</div>
 
 <p id="result"></p>
 
